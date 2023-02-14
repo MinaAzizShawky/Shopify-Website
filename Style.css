@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 1000px;
+}
+#first-navbar {
+  background-color: rgb(229, 251, 186);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#text-container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+#text {
+  margin: 0;
+}
+
+#link {
+  color: black;
+}
+
+#close-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+#close {
+  cursor: pointer;
+  margin-right: 50px;
+}
+.fa-caret-down {
+  margin-left: 5px;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f0d7";
+}
+#full-logo {
+  height: 100px;
+}
+#second-navbar {
+  margin: 5px 50px -15px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 100px;
+}
+#second-navbar .left-container {
+  display: flex;
+}
+#second-navbar .left-container a {
+  margin-left: 50px;
+  color: black;
+  text-decoration: none;
+}
+.StartBtn {
+  margin-top: 2px;
+  background-color: black;
+  color: white;
+  height: 41px;
+  width: 130px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.StartBtn2 {
+  margin-top: 2px;
+  background-color: black;
+  color: white;
+  height: 41px;
+  width: 130px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.right-container a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: black;
+}
+.firstSection {
+  display: flex;
+  margin: 5px 0px;
+  height: 500px;
+  background: linear-gradient(to bottom, #01aaff86, #ffffff);
+  justify-content: space-between;
+}
+.firstSection .leftDiv {
+  margin-left: 50px;
+}
+.firstSection .leftDiv .overview {
+  margin-top: 20px;
+  background: transparent;
+  border: 0.5px solid gray;
+  border-radius: 15px;
+  height: 38px;
+  width: 250px;
+}
+.overview .fas {
+  margin-right: 5px;
+}
+.firstSection .leftDiv h1 {
+  margin-top: 30px;
+  font-size: 70px;
+}
+.firstSection .leftDiv .build {
+  font-size: 30px;
+}
+.email {
+  display: flex;
+  margin-top: 20px;
+}
+.email #inputText {
+  width: 400px;
+  height: 10px;
+  padding: 16px;
+  margin-right: -133px;
+  border-radius: 20px;
+}
+.try {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.rightDiv img {
+  height: 170px;
+  border-radius: 20px;
+}
+.container {
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.left-section {
+  width: 30%;
+  text-align: center;
+  margin-right: 2%;
+}
+.right-section {
+  margin-right: 75px;
+  padding: 10px;
+}
+.right-section h3 {
+  margin-top: 0;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.col {
+  width: 270px;
+  margin-bottom: 20px;
+  border-left: 5px solid #01aaff;
+  padding-left: 10px;
+}
+.Discover {
+  font-size: 40px;
+  font-weight: bold;
+}
